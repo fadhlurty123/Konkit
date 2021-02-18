@@ -1,0 +1,19 @@
+@media print {
+  #printable {
+    width: 100vw;
+    margin: 0 auto !important;
+  }
+  #non-printable {
+    display: none;
+  }
+  #mainHeader {
+    display: none !important;
+  }
+  .invoice__header {
+    background-color: #eee !important;
+    -webkit-print-color-adjust: exact !important;
+  }
+  .invoice__invoice__type {
+    -webkit-appearance: none !important;
+  }
+}

@@ -1,0 +1,250 @@
+html {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  min-height: 100%;
+}
+
+.header {
+  text-align: center;
+  max-width: 80vw;
+  margin: 50px auto;
+}
+
+.input__container {
+  width: 50vw;
+  margin: 0 auto;
+}
+
+.input__container .costs {
+  padding: 0;
+}
+
+.input__container .costs li {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.input__container .costs li label, select, input, button {
+  flex: 1;
+}
+
+.input__container .costs li select {
+  max-width: 100px;
+}
+
+.input__container .costs button {
+  max-width: 70px;
+  height: 30px;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.invoice__container li input {
+  border: 1px solid #e7e7e7;
+  background-color: #fff;
+  color: inherit;
+  font-family: inherit;
+  font-size: 14px;
+  padding: 8px 10px;
+  transition: border 0.3s;
+  border-radius: 5px;
+  margin: 10px 0px;
+  /* width: 100px;
+  height: 15px; */
+}
+
+.invoice__container {
+  margin: 50px auto;
+  width: 50vw;
+}
+
+.invoice__container ul {
+  padding: 0;
+}
+
+.invoice__container ul li {
+  list-style: none;
+  line-height: 1.5;
+  font-size: 1rem;
+  height: max-content;
+  margin: 5px 0;
+}
+
+.invoice__container ul li button {
+  font-size: 0.8rem;
+  max-width: 80px;
+  border-radius: 5px;
+}
+
+.invoice__container .extra__info li {
+  font-size: 0.9rem;
+}
+
+.no-list-style {
+  list-style: none!Important;
+}
+
+/* .invoice__container ul li input {
+  border: 1px solid #e7e7e7;
+  background-color: #fff;
+  color: inherit;
+  font-family: inherit;
+  font-size: 1.1rem;
+  padding: 12px 10px;
+  transition: border 0.3s;
+  border-radius: 5px;
+  margin: 10px 0px;
+  width: 50%;
+} */
+
+.invoice__container .capital {
+  color: #b4b4b4;
+  text-transform: uppercase;
+  padding: 5px 0px;
+  margin: 10px 0px;
+}
+
+.invoice__info, .invoice__description, .invoice__terms, .invoice__payment, .invoice__footer {
+  padding: 20px 20px 0px 20px;
+  border: 1px solid #dddcdc;
+  border-top: none;
+}
+
+.invoice__header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+  background: #eee;
+  padding: 20px 15px;
+  border: 1px solid #dddcdc;
+}
+
+.invoice__header span {
+  flex: 1;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  width: max-content;
+}
+
+.invoice__id {
+  text-align: end;
+}
+
+.invoice__info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.invoice__info ul li:nth-child(2) {
+  font-size: 1.5rem;
+}
+
+.invoice__info>div {
+  flex: 1;
+}
+
+.invoice__description li {
+  min-width: 100px;
+  height: 15px;
+}
+
+.invoice__description .desc {
+  /* margin: 20px 0px; */
+}
+
+.invoice__description .desc__items li {
+  padding-left: 10px;
+  line-height: 2;
+  list-style: inside;
+}
+
+.invoice__description .subsciption {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 1.1rem;
+  padding: 0px 0px 10px 0px;
+  height: 65px;
+  align-items: center;
+}
+
+.invoice__description .subsciption .input__description__value {
+  width: 75px;
+  text-align: center;
+}
+
+.invoice__description .subsciption .input__description__quantity {
+  width: 50px;
+  text-align: center;
+}
+
+.invoice__description .subsciption select {
+  font-size: 1.1rem;
+  background: transparent;
+  border: none;
+}
+
+.invoice__description .subsciption .type {
+  min-width: 50%;
+}
+
+.invoice__description .desc__values__input {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.invoice__description .withMargin {
+  margin: 10px 0;
+}
+
+.invoice__payment .cost {
+  display: flex;
+  align-items: baseline;
+}
+
+.invoice__payment .cost .label {
+  flex: 1;
+}
+
+.invoice__payment .invoice__taxes {
+  border-bottom: 1px solid;
+}
+
+.invoice__payment .invoice__total {
+  margin: 10px 0px;
+}
+
+.invoice__payment .invoice__total {
+  font-size: 1.5rem;
+}
+
+.invoice__footer {
+  text-align: center;
+  border: none;
+}
+
+.invoice__footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.add__invoice {
+  display: flex;
+  margin: 20px auto;
+  padding: 8px 12px;
+  justify-content: center;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.add__invoice:hover {
+  background: green;
+  color: #fff;
+}

@@ -1,0 +1,83 @@
+body {
+    color: #48D1CC;
+    background-color: #F0FFFF
+}
+
+p1 {
+    font-size: large;
+    font-weight: 500px;
+    font-family: Geneva, Verdana, sans-serif;
+    margin: 40px;
+}
+
+.container {
+    padding: 0px;
+    margin: 0px 20px 20px 350px;
+    text-align: center;
+}
+
+.row {
+    background-color: #F0FFFF;
+    margin: 45px;
+}
+
+.footer {
+    margin-left: 0px;
+    text-align: center;
+    font-size: large;
+    font-family: Geneva, Verdana, sans-serif;
+    font-weight: 300px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #48D1CC;
+    font-family: Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-weight: 500px;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: large;
+}
+
+.foto-produk {
+    width: 80%;
+    height: 100%;
+}
+
+.grid-produk {
+    text-align: center;
+    margin: 5px;
+    background-color: #F0FFFF;
+    color: black;
+    padding: 15px;
+    border-style: solid;
+    border-color: black;
+    font-family: Geneva, Verdana, sans-serif;
+}
+
+.tombol-masuk {
+    margin: 5px;
+    border-radius: 4px;
+    background-color: #48D1CC;
+    border: none;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
